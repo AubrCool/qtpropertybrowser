@@ -16,7 +16,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "extension", "examples\exten
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_controller", "examples\object_controller\object_controller.vcxproj", "{7B98F114-C811-37E0-81CE-BB82A048BF30}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "buildlib", "buildlib\buildlib.vcxproj", "{6B65EA97-FCC8-3A0D-9CD8-BBE6ECE020F9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt6PropertyBrowser", "buildlib\buildlib.vcxproj", "{6B65EA97-FCC8-3A0D-9CD8-BBE6ECE020F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{70DA8648-FB98-47C0-8ED6-0CA1B4BA66CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C8A934A-6D76-3C76-A972-23A5D76610FF} = {70DA8648-FB98-47C0-8ED6-0CA1B4BA66CB}
+		{68896B95-5563-3366-9E09-7FD71BA559BA} = {70DA8648-FB98-47C0-8ED6-0CA1B4BA66CB}
+		{38109BD6-F385-31AD-8F48-FDC458E6672C} = {70DA8648-FB98-47C0-8ED6-0CA1B4BA66CB}
+		{A9B63083-0353-303E-94E1-81A9C6B372E7} = {70DA8648-FB98-47C0-8ED6-0CA1B4BA66CB}
+		{21698674-52D0-390D-AB8D-C2DB6581DB82} = {70DA8648-FB98-47C0-8ED6-0CA1B4BA66CB}
+		{716E9348-5D3C-31CC-81CA-F1367F821EB0} = {70DA8648-FB98-47C0-8ED6-0CA1B4BA66CB}
+		{7B98F114-C811-37E0-81CE-BB82A048BF30} = {70DA8648-FB98-47C0-8ED6-0CA1B4BA66CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		Qt5Version = 6.2.2_msvc2019_64
